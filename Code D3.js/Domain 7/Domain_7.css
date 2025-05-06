@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.arc {
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.pie-title {
+  fill: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
