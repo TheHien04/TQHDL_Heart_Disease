@@ -65,8 +65,8 @@ The dataset was preprocessed using Python and visualized through customized D3.j
 
 ## 🧰 Technologies Used
 
-- **D3.js** – for dynamic, data-driven visualizations  
-- **HTML / CSS / JS** – for web structure and styling  
-- **Python / Pandas / Jupyter Notebook** – for preprocessing data  
+ **D3.js** – for dynamic, data-driven visualizations  
+ **HTML / CSS / JS** – for web structure and styling  
+ **Python / Pandas / Jupyter Notebook** – for preprocessing data  
 ---
 > *“Good data visualization transforms complexity into clarity — and empowers decisions through understanding.”*
