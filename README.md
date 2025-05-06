@@ -53,3 +53,20 @@ The dataset was preprocessed using Python and visualized through customized D3.j
 
 📄 project_heart_disease.csv  # Raw dataset
 📄 [TQHDL_2425]Project_HeartDisease.pdf  # Project guideline
+---
+## 🚀 How to Run
+
+1. Clone or download this repository.
+2. Open terminal and navigate to the dashboard folder:
+3. Launch a local server
+4. Open `http://localhost:8000` in your browser to view the dashboard.
+
+---
+
+## 🧰 Technologies Used
+
+- **D3.js** – for dynamic, data-driven visualizations  
+- **HTML / CSS / JS** – for web structure and styling  
+- **Python / Pandas / Jupyter Notebook** – for preprocessing data  
+---
+> *“Good data visualization transforms complexity into clarity — and empowers decisions through understanding.”*
