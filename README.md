@@ -24,7 +24,20 @@ The dataset was preprocessed using Python and visualized through customized D3.j
 > The final dashboard combines all 8 tasks into one unified visual interface, meeting the **Bonus 3** requirement.
 
 ---
+## ✅ Task Analysis & Insights
 
+| Domain | Question                                                                                     | Chart Type | Insight                                                                 |
+|--------|----------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------|
+| 1      | How is heart disease distributed across different age groups?                                | Bar Chart  | Older individuals (esp. 50+) have a noticeably higher rate of heart disease. |
+| 2      | How does gender correlate with heart disease prevalence?                                     | Pie Chart  | Males are more likely to develop heart disease than females.           |
+| 3      | Is there a relationship between smoking status and heart disease?                            | Bar Chart  | Smokers show significantly higher incidence of heart disease.          |
+| 4      | How do exercise habits influence heart disease status?                                       | Bar Chart  | Individuals with low physical activity are more prone to heart disease.|
+| 5      | How does cholesterol level vary between those with and without heart disease?                | Bar Chart  | Slightly higher cholesterol observed in the heart disease group.       |
+| 6      | Is there a correlation between BMI and heart disease status?                                 | Boxplot    | Median BMI is higher for those with heart disease.                     |
+| 7      | Does family history increase heart disease risk?                                             | Pie Chart  | Majority of patients with heart disease also have a family history.    |
+| 8      | How does cholesterol level distribution differ between males and females?                    | Bar Chart  | Female group shows slightly higher cholesterol, on average.            |
+
+---
 ## 🧱 Project Structure
 
 ```bash
