@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    position: relative;
+    width: 1520px;
+    height: 850px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 430px);
+    grid-template-rows: repeat(2, 500px);
+    gap: 20px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.chart {
+    width: 430px;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: visible;
+    position: relative;
+}
+
+.chart h3 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.chart svg {
+    display: block;
+}
+
+.chart .pie_chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart .grouped_bar_chart-container {
+    display: block;
+}
+
+.filter-container {
+    position: absolute;
+    top: 80px;
+    left: 1720px;
+    width: 200px;
+}
+
+.filter-container h1 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.filter-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+.legend {
+    margin-top: 20px;
+}
+
+.legend h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.legend-color {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
