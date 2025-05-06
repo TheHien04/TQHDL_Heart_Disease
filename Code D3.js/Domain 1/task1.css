@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.bar_chart-container {
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.bar {
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.bar:hover {
+    opacity: 0.8;
+}
+
+.x-axis path, .y-axis path {
+    stroke: black;
+}
+
+.x-axis text, .y-axis text {
+    font-size: 12px;
+}
+
+.axis-label {
+    font-size: 16px;
+    font-weight: bold;
+    fill: black;
+}
+
+.x-label, .y-label {
+    text-anchor: middle;
+}
+
+.legend text {
+    font-size: 12px;
+}
+
+.tooltip {
+    font-size: 12px;
+    border: 1px solid black;
+}
