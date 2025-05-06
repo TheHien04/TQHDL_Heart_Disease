@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.x-axis line,
+.y-axis line {
+  display: none;
+}
+
+.x-axis text,
+.y-axis text {
+  font-size: 12px;
+}
+
+.stack rect {
+  stroke: none;
+}
+
+/* Gridlines */
+.grid line {
+  stroke: #ccc;
+  stroke-dasharray: 2,2;
+  pointer-events: none;
+}
+
+/* Tooltip style */
+.tooltip {
+  position: absolute;
+  text-align: left;
+  padding: 6px;
+  font-size: 12px;
+  background: #eee;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  opacity: 0;
+}
