@@ -1,0 +1,32 @@
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#chart-6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tooltip {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.axis-label {
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+
+.legend {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
