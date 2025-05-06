@@ -1,0 +1,42 @@
+.title {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.charts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.chart-container {
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.pie_chart-container {
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    fill: black;
+}
+
+.legend-container {
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: left auto;
+}
+
+.legend text {
+    font-size: 12px;
+}
